@@ -91,7 +91,7 @@ def sortstring():
     end = time.perf_counter()
     result = ''.join(strng)
     elapsed = (end - start) * 1000
-    sortedresult.config(text=f"{result} in {elapsed:.3f}ms")
+    sortedresult.config(text=f"'{result}' in {elapsed:.3f}ms")
 
 # Function to quit program
 
