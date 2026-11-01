@@ -204,7 +204,7 @@ instructions.grid(row=1, column=0, columnspan=4, pady=5)
 
 Label(stringsort, text="String:").grid(row=2, column=0, columnspan=4, pady=5) ## Sets where string is to be input
 string = Entry(stringsort) ## Sets the entry to be a varibale called string
-string.grid(row=3, column=0, columnspan=6, pady=5) ## Input box set below the title
+string.grid(row=3, column=0, columnspan=4, pady=5) ## Input box set below the title
 
 Button(stringsort, text="Back to Main Menu", fg="blue", cursor="hand2", underline=1, command=returntostart).grid(row=7, column=0, columnspan=4, pady=5) ## Creates a button that will return the user to the main menu if pressed.
 
